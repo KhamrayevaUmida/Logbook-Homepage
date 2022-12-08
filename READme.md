@@ -1,5 +1,2 @@
 # Logbook-Homepage
 Logbook - Homepage
-
-
-
