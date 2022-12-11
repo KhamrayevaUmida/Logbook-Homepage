@@ -27,7 +27,7 @@ class FullleftView(TemplateView):
     template_name = "index-full-left.html"
 
 class FullrightView(TemplateView):
-    template_name = "index-full-rigth.html"
+    template_name = "index-full-right.html"
 
 class FullView(TemplateView):
     template_name = "index-full.html"
@@ -48,7 +48,7 @@ class Postd2View(TemplateView):
     template_name = "post-details-2.html"
 
 class PostelementsView(TemplateView):
-    template_name = "post-elemants.html"
+    template_name = "post-elements.html"
 
 class PrivacyView(TemplateView):
     template_name = "privacy-policy.html"

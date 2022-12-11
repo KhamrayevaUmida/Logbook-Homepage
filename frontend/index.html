@@ -16,10 +16,10 @@
 						</div>
 					</div>
 					<div class="col-12 mx-auto">
-						<h3><a class="post-title" href="post-elements.html">{{ post.header }}</a></h3>
+						<h3><a class="post-title" href="/post-elements/">{{ post.header }}</a></h3>
 						<ul class="list-inline post-meta mb-4">
 							<li class="list-inline-item"><i class="ti-user mr-2"></i>
-								<a href="author.html">{{ post.name }}</a>
+								<a href="/author/">{{ post.name }}</a>
 							</li>
 							<li class="list-inline-item">Date : {{ post.date }}</li>
 							<li class="list-inline-item">Categories : <a href="#!" class="ml-1">{{ post.category }} </a>
@@ -80,11 +80,11 @@
       <ul class="list-unstyled widget-list">
          {% for lpost in lposts %}
          <li class="media widget-post align-items-center">
-            <a href="post-elements.html">
+            <a href="/post-elements/">
                <img loading="lazy" class="mr-3" src="{{ lpost.img }}">
             </a>
             <div class="media-body">
-               <h5 class="h6 mb-0"><a href="post-elements.html">{{ lpost.name }}</a></h5>
+               <h5 class="h6 mb-0"><a href="/post-elements/">{{ lpost.name }}</a></h5>
                <small>{{ lpost.date }}</small>
             </div>
          </li>

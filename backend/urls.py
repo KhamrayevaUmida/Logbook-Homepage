@@ -11,7 +11,7 @@ urlpatterns = [
     path('full/', FullView.as_view()),
     path('list-right/', ListrightView.as_view()),
     path('list-left/', ListleftView.as_view()),
-    path('list', ListView.as_view()),
+    path('list/', ListView.as_view()),
     path('post-details-1/', Postd1View.as_view()),
     path('post-details-2/', Postd2View.as_view()),
     path('post-elements/', PostelementsView.as_view()),
