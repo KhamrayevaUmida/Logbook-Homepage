@@ -11,7 +11,7 @@ def home(request):
         "tposts": tposts,
         "lposts": lposts
     }
-    return render(request, "index.html", context)
+    return render(request, "new/index.html", context)
 
 
 class AboutView(TemplateView):
